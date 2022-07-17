@@ -1,0 +1,67 @@
+.about__me___abt {
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+}
+
+.container__left___abt{
+    width: 60%;
+    background-color: var(--color--black);
+    position: relative;
+   
+}
+.container__left___abt h1 {
+    color: var(--color--yellow);
+    font-size: 6rem;
+    margin-top: 130px;
+    text-align: center;
+}
+.container__right___abt {
+    width: 40%;
+    background-color: var(--color--yellow);
+    position: relative;
+   
+   
+}
+.container__text {
+    width: 800px;
+    height: 350px;
+    background-color: var(--color--black);
+    border-radius: 20px;
+    margin-top: 300px;
+    display: flex;
+    border: 7px solid var(--color--yellow);
+    position: absolute;
+    z-index: 1;
+    justify-content: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.473);
+    
+
+}
+.img__abt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img__abt img {
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 15px;
+
+}
+.content__text___abt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.content__text___abt h3 {
+    color: var(--color--white);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+

@@ -1,0 +1,114 @@
+.projects {
+    height: 130vh;
+    width: 100%;
+    overflow: hidden;
+   background-color: var(--color--yellow);
+    display: flex;
+}
+.title__projects {
+    width: 60%;
+    height: 200vh;
+    background-color: var(--color--black);
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.projects__right {
+    width: 40%;
+    height: 200vh;
+    margin-top: 150px;
+    background-color: var(--color--yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title__projects h1 {
+    font-size: 6rem;
+    color: var(--color--white);
+    margin-top: 20px;
+}
+.number__project {
+
+}
+.number__project h3 {
+    color: var(--color--white);
+    font-size: 2rem;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    
+}
+.container__projects {
+    width: 100%;
+    margin-top: 80px;
+    
+}
+.lign__project {
+    border-left: 1px solid var(--color--white);
+    height: 443px;
+    position:absolute;
+    left: 16%;
+    margin-top: 80px;
+   
+}
+.description__project {
+    width: 62%;
+    height: 200px;
+    margin-top: 80px;
+}
+.description__project h3 {
+    color: var(--color--white);
+    font-weight: 300;
+    line-height: 30px;
+    
+}
+.technology__projects {
+    color: var(--color--white);
+    font-weight: 300;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    
+}
+.btn__projects button {
+    width: 180px;
+    height: 60px;
+    background-color: var(--color--yellow);
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.img1 {
+    width: 300px;
+    height: 300px;
+    margin-right: 150px;
+}
+.img1 img {
+    width: 400px;
+    margin-top: 50px;
+    
+   
+}
+.img2 {
+    width: 300px;
+    height: 300px;
+    margin-right: 150px;
+    
+}
+.img2 img {
+    width: 500px;
+    
+    
+}
+.image__two___project img {
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid var(--color--white);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.473);
+    
+   
+}
+
+  
