@@ -116,7 +116,7 @@
     .container__skills{
         width: 100%;
         justify-content: center;
-        
+        height: 1050px;
         margin-top: 0;
         
     }
@@ -139,7 +139,12 @@
     }
     .skills__html {
         margin-top: 0;
+        height: 350px;
        
+    }
+    .description__skills {
+       
+        padding: 10px;
     }
     
 }

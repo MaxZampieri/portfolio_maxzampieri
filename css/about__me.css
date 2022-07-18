@@ -68,6 +68,42 @@
 @media only screen and (max-width: 600px) {
     .container__text {
         display: none;
+        flex-direction: column;
+        width: 90%;
+        height: 500px;
+        z-index: none;
+    }
+    .content__text___abt h3 {
+        color: var(--color--white);
+        font-weight: 200;
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    .img__abt img {
+        width: 250px;
+        margin-left: 0px;
+        border-radius: 10px;
+    
+    }
+    .about__me___abt {
+        height: 120vh;
+        width: 100%;
+        display: column;
+        position: relative;
+        justify-content: center;
+       
+    }
+    .container__right___abt {
+        display: none;
+       
+    }
+    .container__left___abt{
+        width: 100%;
+       
+       
+    }
+    .container__left___abt h1 {
+       display: none;
     }
   }
   

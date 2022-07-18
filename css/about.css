@@ -169,9 +169,10 @@
         
     }
     .btn__about button{
-        width: 100px;
-        height: 30px;
+        width: 180px;
+        height: 40px;
         border-radius: 5px;
         font-size: .8rem;
+        border: none;
     }
   }
