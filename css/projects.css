@@ -1,5 +1,5 @@
 .projects {
-    height: 130vh;
+    min-height: 150vh;
     width: 100%;
     overflow: hidden;
    background-color: var(--color--yellow);
@@ -7,7 +7,7 @@
 }
 .title__projects {
     width: 60%;
-    height: 200vh;
+    min-height: 180%;
     background-color: var(--color--black);
     line-height: 80px;
     display: flex;
@@ -16,7 +16,7 @@
 }
 .projects__right {
     width: 40%;
-    height: 200vh;
+    min-height: 180%;
     margin-top: 150px;
     background-color: var(--color--yellow);
     display: flex;
@@ -26,7 +26,7 @@
 .title__projects h1 {
     font-size: 6rem;
     color: var(--color--white);
-    margin-top: 20px;
+    margin-top: 60px;
 }
 .number__project {
 
@@ -110,5 +110,71 @@
     
    
 }
-
+/*==========Responsive=============*/
+@media only screen and (max-width: 600px){
+    .projects {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .title__projects {
+        width: 100%;
+        height: 200vh;
+       
+    }
+    .img1 {
+        width: 200px;
+        height: 200px;
+        margin-right: 50px;
+    }
+    .img1 img {
+        width: 200px;
+        margin-top: 0;
+        
+       
+    }
+    .title__projects h1 {
+        font-size: 4rem;
+        margin-top: 20px;
+    }
+    .container__projects {
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .number__project h3 {
+       
+        font-size: 1.5rem;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        
+    }
+    .lign__project {
+        border-left: 1px solid var(--color--white);
+        height: 350px;
+        position:absolute;
+        left: 16%;
+        margin-top: 80px;
+       
+    }
+    .technology__projects {
+        font-size:1rem;
+        width: 100%;
+        margin-left: 10px;
+        font-weight: 300;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        
+    }
+    .img2 img {
+        width: 300px;
+        
+        
+    }
+    .projects__right {
+        display: none;
+    }
+}
   

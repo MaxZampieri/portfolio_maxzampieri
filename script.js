@@ -14,7 +14,7 @@ function reveal() {
     }
   }
   
-  window.addEventListener("scroll", reveal__right);
+  window.addEventListener("scroll", reveal);
 
   function reveal__right() {
     var reveals = document.querySelectorAll(".reveal__right");
@@ -32,4 +32,6 @@ function reveal() {
     }
   }
   
-  window.addEventListener("scroll", reveal);
+  window.addEventListener("scroll", reveal__right);
+
+ 

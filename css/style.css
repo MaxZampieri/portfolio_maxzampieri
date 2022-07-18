@@ -45,6 +45,7 @@ body {
     opacity: 1;
   }
 
+  
 
 .content__area {
     margin-left: 150px;
@@ -62,4 +63,5 @@ footer {
 footer p {
     text-align: center;
     border-bottom: 1px solid var(--color--black);
+    margin-left: 150px;
 }
